@@ -1,0 +1,359 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 400vh;
+    /* overflow: hidden; */
+    background: #f0f07b;
+}
+
+.nav_design{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 400px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav_design li:hover{
+    color: #f20d09;
+}
+
+ul{
+    display: inline;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.content{
+    position: absolute;
+    top: 22vh;
+    left: 10%;
+    width: 33%;
+}
+.content h1{
+    font-size: 60px;
+}
+
+hr{
+    margin-top: 30px;
+    width: 20%;
+    height: 6px;
+    background: black;
+}
+
+.content p{
+    margin-top: 30px;
+    font-size: 16px;
+    margin-left: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    margin-top: 20px;
+    background: #e9a23f;
+    border: none;
+    outline: none;
+    letter-spacing: .04em;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+.main_image{
+    position: absolute;
+    border-radius: 50%;
+    border: 5px;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    overflow: hidden;
+    margin-bottom: 80px;
+    margin-right: 40px;
+}
+
+.for_button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 60px;
+    cursor: pointer;
+    border: 3px solid;
+    border-color: rgb(238, 236, 231);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.for_button:hover {
+    background-color: #d6940f;
+    transform: scale(1.1);
+}
+
+.for_button2:hover{
+    background-color: #d6940f;
+    transform: scale(1.1);
+}
+
+.for_button2{
+    margin-left: 30px;
+    border-radius: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: 3px solid;
+    border-color: rgb(238, 236, 231);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.last_text{
+    margin-bottom: 10px;
+    margin-top: 380px;
+    margin-left: 150px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.facebook{
+    width: 2.5%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.instagram{
+    width: 2.5%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 1225px;
+    cursor: pointer;
+}
+
+.tweeter{
+    width: 2.5%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.viber{
+    width: 2.5%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.image4{
+    background-color: rgb(135, 141, 238);
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+   
+}
+
+.image3{
+    background-color: rgb(53, 190, 53);
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+
+.image2{
+    background-color: rgb(195, 106, 29);
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+
+.image1{
+    background-color: rgb(249, 48, 245);
+    width: 300px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.imagea{
+    height: 450px;
+    width: 450px;
+    background-color: black;
+}
+
+.imageb{
+    height: 450px;
+    width: 450px;
+    background-color: rgb(197, 42, 42);
+}
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #f0f07b;
+}
+
+.red-box {
+    position: absolute;
+    top: 116px;
+    left: 50px;
+    width: 500px;
+    height: 270px;
+    background-color: #efc261;
+    z-index: 1;
+   
+}
+
+.blue-box {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 500px;
+    height: 300px;
+    background-color: #e9a23f;
+    z-index: 3;
+    
+}
+
+.green-box{
+    position: absolute;
+    top: 116px;
+    left: 920px;
+    width: 500px;
+    height: 270px;
+    background-color: #efc261;
+    z-index: 2;
+    
+}
+
+.blur {
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+  }
+
+.everywhere{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.container1 {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+  }
+  
+  .box {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin-right: 100px; /* Adjusted margin */
+  }
+  
+  
+  .div1 {
+    top: 25px; /* Adjusted top position */
+    left: 50px; /* Adjusted left position */
+    background-color: blue;
+    z-index: 1;
+    position: absolute;
+    width: 400px; /* Adjusted width */
+    height: 350px; /* Adjusted height */
+  }
+  
+  .div2 {
+    top: 260px; /* Adjusted top position */
+    left: 100px; /* Adjusted left position */
+    background-color: #e9a23f;
+    z-index: 2;
+    position: absolute;
+    width: 300px; /* Adjusted width */
+    height: 230px; /* Adjusted height */
+  }
+
+  .div3 {
+    top: 25px; /* Adjusted top position */
+    left: 50px;
+    right: 10px; /* Adjusted left position */
+    background-color: blue;
+    z-index: 1;
+    position: absolute;
+    width: 400px; /* Adjusted width */
+    height: 350px; /* Adjusted height */
+  }
+  
+  .div4 {
+    top: 260px; /* Adjusted top position */
+    left: 100px; /* Adjusted left position */
+    background-color: #e9a23f;
+    z-index: 2;
+    position: absolute;
+    width: 300px; /* Adjusted width */
+    height: 230px; /* Adjusted height */
+  }
+
+  .div5 {
+    top: 25px; /* Adjusted top position */
+    left: 40px; 
+    right: 0px; /* Adjusted left position */
+    background-color: blue;
+    z-index: 1;
+    position: absolute;
+    width: 400px; /* Adjusted width */
+    height: 350px; /* Adjusted height */
+  }
+  
+  .div6 {
+    top: 260px; /* Adjusted top position */
+    left: 100px; /* Adjusted left position */
+    background-color: #e9a23f;
+    z-index: 2;
+    position: absolute;
+    width: 300px; /* Adjusted width */
+    height: 230px; /* Adjusted height */
+  }
+
+  .buy_now {
+    margin-left: 100px; 
+    background-color: #efef35; 
+    border-color: rgb(246, 112, 74);
+    border-radius: 60px;
+    cursor: pointer;
+    border: 3px solid;
+    border-color: rgb(238, 236, 231);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.buy_now:hover {
+    background-color: #f5f50a;
+    transform: scale(1.1);
+}
+
+  
